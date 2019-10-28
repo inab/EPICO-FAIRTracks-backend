@@ -1,0 +1,9 @@
+/EPICO-FAIRTracks-backend-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
+/blib
+/local/

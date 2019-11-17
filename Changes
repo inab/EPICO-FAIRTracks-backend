@@ -1,6 +1,8 @@
 Revision history for EPICO-FAIRTracks-backend
 
 {{$NEXT}}
+
+v0.0.2  2019-11-17 22:28:00 CET
 	- Added missing development dependencies.
 	- Updated install instructions, where it shows how to inject this
 	  modules dependency in different scenarios.

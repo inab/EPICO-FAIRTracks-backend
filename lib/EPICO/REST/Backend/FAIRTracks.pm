@@ -12,7 +12,7 @@ package EPICO::REST::Backend::FAIRTracks;
 
 use version;
 
-our $VERSION = version->declare('v0.0.1');
+our $VERSION = version->declare('v0.0.2');
 
 use base qw(EPICO::REST::Backend);
 

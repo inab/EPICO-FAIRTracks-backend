@@ -4,8 +4,11 @@ EPICO::REST::Backend::FAIRTracks - FAIRTracks backend class for EPICO REST API
 
 # SYNOPSIS
 
+```perl
+
     use EPICO::REST::Backend::FAIRTracks;
-    
+
+```
 
 # DESCRIPTION
 
@@ -21,6 +24,17 @@ instances for other external sources.
 # METHODS
 
 _(to be documented)_
+
+# INSTALLATION
+
+Latest release of this package is available in the [BSC INB DarkPAN](https://gitlab.bsc.es/inb/darkpan/). You
+can install it just using `cpanm`:
+
+```bash
+
+    cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ EPICO::REST::Backend::FAIRTracks
+
+```
 
 # AUTHOR
 

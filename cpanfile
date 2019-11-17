@@ -6,7 +6,8 @@ requires 'boolean';
 requires 'Carp';
 requires 'Log::Log4perl';
 
-requires 'EPICO::REST::Backend', 'v2.0.0', url => 'https://github.com/inab/EPICO-abstract-backend/archive/v2.0.0.tar.gz';
+# This dependency is in the BSC INB DarkPAN
+requires 'EPICO::REST::Backend', 'v2.0.0';
 
 on test => sub {
     requires 'Test::More', '0.96';
@@ -17,4 +18,6 @@ on develop => sub {
     requires 'Dist::Zilla::Plugin::MakeMaker';
     requires 'Dist::Zilla::Plugin::ModuleShareDirs';
     requires 'Dist::Zilla::Plugin::Prereqs::FromCPANfile';
+    requires 'Dist::Zilla::Plugin::Run', '0.048';
+    requires 'OrePAN2';
 };

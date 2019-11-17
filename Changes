@@ -1,6 +1,10 @@
 Revision history for EPICO-FAIRTracks-backend
 
 {{$NEXT}}
+	- Added missing development dependencies.
+	- Updated install instructions, where it shows how to inject this
+	  modules dependency in different scenarios.
+	- Added needed setup to push releases into BSC INB DarkPAN.
 
 v0.0.1
 	- Initial skeleton on Dist::Milla.

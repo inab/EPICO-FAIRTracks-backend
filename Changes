@@ -1,6 +1,8 @@
 Revision history for EPICO-FAIRTracks-backend
 
 {{$NEXT}}
+
+v0.0.3  2019-12-09 01:07:13 CET
 	- Implemented methods related to 'assemblies' endpoint.
 	- Added additional dependencies on LWP::UserAgent, JSON::MaybeXS
 	  and others.

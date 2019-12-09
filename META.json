@@ -77,7 +77,7 @@
          "web" : "https://github.com/inab/EPICO-FAIRTracks-backend"
       }
    },
-   "version" : "v0.0.2",
+   "version" : "v0.0.3",
    "x_contributors" : [
       "Jos\u00e9 Mar\u00eda Fern\u00e1ndez <jose.m.fernandez@bsc.es>"
    ],

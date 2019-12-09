@@ -9,6 +9,7 @@ use ExtUtils::MakeMaker;
 use File::ShareDir::Install;
 $File::ShareDir::Install::INCLUDE_DOTFILES = 1;
 $File::ShareDir::Install::INCLUDE_DOTDIRS = 1;
+install_share dist => "share";
 install_share module => "EPICO::REST::Backend", "backend\-shared";
 
 
@@ -27,7 +28,12 @@ my %WriteMakefileArgs = (
     "EPICO::REST::Backend" => "2.0.0",
     "File::Basename" => 0,
     "File::Spec" => 0,
+    "JSON::MaybeXS" => 0,
+    "LWP::Protocol::https" => 0,
+    "LWP::UserAgent" => 0,
     "Log::Log4perl" => 0,
+    "Scalar::Util" => 0,
+    "URI" => 0,
     "boolean" => 0
   },
   "TEST_REQUIRES" => {
@@ -45,8 +51,13 @@ my %FallbackPrereqs = (
   "EPICO::REST::Backend" => "2.0.0",
   "File::Basename" => 0,
   "File::Spec" => 0,
+  "JSON::MaybeXS" => 0,
+  "LWP::Protocol::https" => 0,
+  "LWP::UserAgent" => 0,
   "Log::Log4perl" => 0,
+  "Scalar::Util" => 0,
   "Test::More" => "0.96",
+  "URI" => 0,
   "boolean" => 0
 );
 

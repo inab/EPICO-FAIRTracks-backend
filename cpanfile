@@ -6,6 +6,12 @@ requires 'boolean';
 requires 'Carp';
 requires 'Log::Log4perl';
 
+requires 'LWP::UserAgent';
+requires 'LWP::Protocol::https';
+requires 'JSON::MaybeXS';
+requires 'URI';
+requires 'Scalar::Util';
+
 # This dependency is in the BSC INB DarkPAN
 requires 'EPICO::REST::Backend', 'v2.0.0';
 

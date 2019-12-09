@@ -1,0 +1,12 @@
+[epico-api]
+name=FAIRTracks endpoint
+release=ft
+backend=FAIRTracks
+
+; These parameters are optional
+[fairtracks]
+; Endpoint for calls to TrackFind server  
+;base-url=https://trackfind-dev.gtrack.no/api/v1/
+; Time to live (in seconds) of cached calls to TrackFind
+;ttl=300
+

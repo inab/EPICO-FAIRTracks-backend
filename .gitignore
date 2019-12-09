@@ -8,3 +8,5 @@ MYMETA.*
 /blib
 /local/
 /cpanfile.snapshot
+/EPICO-REST-API
+/work
